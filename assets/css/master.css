@@ -199,7 +199,7 @@ nav.navbar.bootsnav.navbar-transparent.brand-center .logo, .brand-center .logo {
 nav.navbar.bootsnav.navbar-transparent.brand-center .navbar-brand {padding: 20px 15px;}
 .navbar-brand {padding: 11px 15px;}
 .logo {position: relative;z-index: 110;display: table;height: 60px;-webkit-transition: all .3s ease;transition: all .3s ease;}
-.logo img {max-height: 33px;-webkit-transition: all .5s ease;transition: all .5s ease;display: block;}
+.logo img {max-height: 40px;-webkit-transition: all .5s ease;transition: all .5s ease;display: block;}
 .logo.z-index-1{z-index: 1;}
 nav .logo > a {display: table-cell;vertical-align: middle;}
 .navbar-scrollspy .logo img {text-align:center;margin: 0 auto;}
