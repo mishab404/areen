@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Designsninja">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Blog Grid - Ascot</title>
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+<!-- Core Style Sheets -->
+<link rel="stylesheet" href="assets/css/master.css">
+<!-- Responsive Style Sheets -->
+<link rel="stylesheet" href="assets/css/responsive.css">
+<!-- Revolution Style Sheets -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+<link rel="stylesheet" type="text/csss" href="revolution/css/navigation.css">
+
+</head>
+<body>
+
+<!--== Loader Start ==-->
+<div id="loader-overlay">
+  <div class="loader">
+      <div class="loader-inner"></div>
+  </div>
+</div>
+<!--== Loader End ==-->
+
+<!--== Wrapper Start ==-->
+<div class="wrapper">
+
+  <!--== Header Start ==-->
+  <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border">
+    <!--== Start Top Search ==-->
+    <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
+      <div id="fullscreen-search-wrapper">
+        <form method="get" id="fullscreen-searchform">
+          <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input" class="search-bar-top">
+          <i class="fullscreen-search-icon icofont icofont-search">
+          <input value="" type="submit">
+          </i>
+        </form>
+      </div>
+    </div>
+    <!--== End Top Search ==-->
+  	<div class="container-fluid">
+      <!--== Start Atribute Navigation ==-->
+      <div class="attr-nav hidden-xs sm-display-none">
+        <ul>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icofont icofont-cart"></i> <span class="badge">3</span> </a>
+            <ul class="dropdown-menu cart-list">
+              <li> <a href="#" class="photo"><img src="assets/images/thumb01.jpg" class="cart-thumb" alt=""></a>
+                <h6><a href="#">Casual T-shirt </a></h6>
+                <p><span class="price">$25.99</span></p>
+              </li>
+              <li> <a href="#" class="photo"><img src="assets/images/thumb02.jpg" class="cart-thumb" alt=""></a>
+                <h6><a href="#">Woman Top</a></h6>
+                <p><span class="price">$15.99</span></p>
+              </li>
+              <li class="total"><span class="pull-left"><strong>Total</strong></span> <span class="pull-right">: $35.99</span> </li>
+              <li><a href="#" class="btn btn-default btn-dark btn-block remove-margin">Checkout</a> </li>
+            </ul>
+          </li>
+          <li class="search"><a href="#" id="search-button"><i class="icofont icofont-search"></i></a></li>
+        </ul>
+      </div>
+      <!--== End Atribute Navigation ==-->
+
+      <!--== Start Header Navigation ==-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
+        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/logo-white.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+      </div>
+      <!--== End Header Navigation ==-->
+
+      <!--== Collect the nav links, forms, and other content for toggling ==-->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Concepts</a>
+             <ul class="dropdown-menu">
+               <li><a href="creative-agency.html">Creative Agency</a></li>
+               <li><a href="digital-agency.html">Digital Agency</a></li>
+               <li><a href="minimal-agency.html">Minimal Agency</a></li>
+               <li><a href="design-studio.html">Design Studio</a></li>
+               <li><a href="landing.html">Landing</a></li>
+               <li><a href="freelancer.html">Freelancer</a></li>
+               <li><a href="business.html">Business</a></li>
+               <li><a href="startups.html">Startups</a></li>
+               <li><a href="fashion.html">Fashion</a></li>
+               <li><a href="classic.html">Classic</a></li>
+               <li><a href="architect.html">Architect</a></li>
+               <li><a href="onepage.html">One Page</a></li>             </ul>
+           </li>
+           <li><a class="page-scroll" href="creative-agency.html#feature">Features</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#service">Services</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#team">Team</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#about">About</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#work">Works</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#pricing">Pricings</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#blog">Blogs</a></li>
+           <li><a class="page-scroll" href="creative-agency.html#contact">Contacts</a></li>
+        </ul>
+      </div>
+      <!--== /.navbar-collapse ==-->
+    </div>
+
+  </nav>
+  <!--== Header End ==-->
+
+  <!--== Page Title Start ==-->
+  <div class="transition-none">
+      <section class="title-hero-bg min-height-800px xs-min-height-400px" style="background-image: url(assets/images/title-bg/title-bg-4.jpg);">
+        <div class="container">
+            <div class="page-title text-center white-color">
+                <h2>We Mean Business</h2>
+                <h1 class="mt-0">Blog Grid</h1>
+            </div>
+        </div>
+      </section>
+  </div>
+  <!--== Page Title End ==-->
+
+  <!--== Blog Grid Post Start ==-->
+  <section class="white-bg">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-sm-9 col-xs-12 xs-mb-50">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="post animation-move-top mb-30">
+                  <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/> </div>
+                  <div class="post-info pt-20 pb-20">
+                    <h5>January 15, 2018</h5>
+                    <h3><a href="blog-grid.html">How These Different Book Covers Reflect the Design</a></h3>
+                    <h6><a class="viewmore" href="#.">view more</a></h6>
+                  </div>
+                </div>
+              </div>
+              <!--== Post End ==-->
+
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="post mb-30">
+                  <div class="blog-slider">
+                      <div class="post-img">
+                        <div class="item">
+                          <img class="img-responsive" src="assets/images/post/post-09.jpg" alt=""/>
+                        </div>
+                      </div>
+                      <div class="post-img">
+                        <div class="item">
+                          <img class="img-responsive" src="assets/images/post/post-10.jpg" alt=""/>
+                        </div>
+                      </div>
+                      <div class="post-img">
+                        <div class="item">
+                          <img class="img-responsive" src="assets/images/post/post-11.jpg" alt=""/>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="post-info pt-20 pb-20">
+                      <h5>April 19, 2014</h5>
+                      <h3><a href="blog-grid.html">8 Colorful Toys Designed to Spark the Imagination</a></h3>
+                      <h6><a class="viewmore" href="#.">view more</a></h6>
+                    </div>
+
+                </div>
+              </div>
+              <!--== Post End ==-->
+
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="post mb-30">
+                  <div class="video-box"> <img class="img-responsive" src="assets/images/post/post-03.jpg" alt="">
+          					<div class="video-box_overlay">
+          					  <div class="center-layout">
+          						<div class="v-align-middle"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=sU3FkzUKHXU">
+          						  <div class="play-button"><i class="tr-icon ion-android-arrow-dropright"></i></div>
+          						  </a> </div>
+          					  </div>
+          					</div>
+          				 </div>
+                  <div class="post-info pt-20 pb-20">
+                    <h5>Febuary 13, 2018</h5>
+                    <h3><a href="blog-grid.html">User Experience Design is one of the most rapidly developing</a></h3>
+                    <h6><a class="viewmore" href="#.">view more</a></h6>
+                  </div>
+                </div>
+              </div>
+              <!--== Post End ==-->
+
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="post animation-move-top mb-30">
+                  <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-04.jpg" alt=""/> </div>
+                  <div class="post-info pt-20 pb-20">
+                    <h5>Febuary 13, 2019</h5>
+                    <h3><a href="blog-grid.html">Nature: The Best Photography from Parks, Mountains, and More</a></h3>
+                    <h6><a class="viewmore" href="#.">view more</a></h6>
+                  </div>
+                </div>
+              </div>
+              <!--== Post End ==-->
+
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="post animation-move-top mb-30">
+                  <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-05.jpg" alt=""/> </div>
+                  <div class="post-info pt-20 pb-20">
+                    <h5>March 27, 2018</h5>
+                    <h3><a href="blog-grid.html">How Ubiquity Became a Liability for Burberry</a></h3>
+                    <h6><a class="viewmore" href="#.">view more</a></h6>
+                  </div>
+                </div>
+              </div>
+              <!--== Post End ==-->
+
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="post animation-move-top mb-30">
+                  <div class="post-img"> <img class="img-responsive" src="assets/images/post/post-06.jpg" alt=""/> </div>
+                  <div class="post-info pt-20 pb-20">
+                    <h5>April 26, 2017</h5>
+                    <h3><a href="blog-grid.html">Web Design Elements That Will Inspire You</a></h3>
+                    <h6><a class="viewmore" href="#.">view more</a></h6>
+                  </div>
+                </div>
+              </div>
+              <!--== Post End ==-->
+
+            </div>
+
+            <div class="row mt-100">
+                <div class="col-md-12">
+                    <div class="text-center">
+                      <div class="pagination text-uppercase dark-color">
+                            <ul>
+                                <li><a href="#"><i class="icofont icofont-long-arrow-left mr-5 xs-display-none"></i> Prev</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">Next <i class="icofont icofont-long-arrow-right ml-5 xs-display-none"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="widget sidebar_widget">
+              <h5 class="aside-title">Newsletter</h5>
+              <form class="search-form" method="get">
+                <input type="text" name="name" class="md-input" id="search" required="" placeholder="Type what it's your mind...">
+                <button type="submit" class="icofont icofont-search-alt-2 search-submit"></button>
+              </form>
+            </div>
+            <div class="mb-50">
+              <h5 class="aside-title">About Me</h5>
+              <a href="about-me.html">
+                <img src="assets/images/about-me.jpg" alt="about-me" />
+              </a>
+              <p class="font-300 mt-30">Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed dui lorem adipiscing in adipiscing et.</p>
+              <a class="btn btn-md btn-color btn-square mt-10">About Author</a>
+            </div>
+            <div class="sidebar_widget widget_archive mb-50">
+              <h5 class="aside-title">Archive</h5>
+              <ul>
+                <li> <a href="#">January 2018</a> <span>14</span></li>
+                <li> <a href="#">May 2017</a> <span>8</span></li>
+                <li> <a href="#">June 2017</a> <span>63</span></li>
+                <li> <a href="#">Febuary 2012</a> <span>45</span></li>
+                <li> <a href="#">April 2016</a> <span>88</span></li>
+              </ul>
+            </div>
+            <div class="social-icons-style-06 mb-50">
+              <h5 class="aside-title">Follow Us</h5>
+              <ul class="xs-icon">
+                <li><a class="icon facebook" href="#."><i class="icofont icofont-social-facebook"></i></a></li>
+                <li><a class="icon twitter" href="#."><i class="icofont icofont-social-twitter"></i></a></li>
+                <li><a class="icon tumblr" href="#."><i class="icofont icofont-social-tumblr"></i></a></li>
+                <li><a class="icon flicker" href="#."><i class="icofont icofont-social-flikr"></i></a></li>
+                <li><a class="icon instagram" href="#."><i class="icofont icofont-social-instagram"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar_widget widget_categories mb-50">
+              <h5 class="aside-title">Categories</h5>
+              <ul>
+                <li> <a href="#">Business</a></li>
+                <li> <a href="#">Health</a> </li>
+                <li> <a href="#">Motion Graphic</a> </li>
+                <li> <a href="#">Conecpt Design</a> </li>
+                <li> <a href="#">Lifestyle</a> </li>
+              </ul>
+            </div>
+            <div class="sidebar_widget widget_tag_cloud mb-50">
+              <h5 class="aside-title">Tags</h5>
+              <div class="post-tags"> <a href="#">Branding</a> <a href="#">Marketing</a> <a href="#">Photography</a> <a href="#">Illustration</a> <a href="#">Development</a> <a href="#">Multipurpose</a> <a href="#">Creativity</a> <a href="#">Apps</a>  <a href="#">Fashion</a> <a href="#">Concept</a> <a href="#">Design</a></div>
+            </div>
+
+            <div class="sidebar_widget widget_recent_post mb-50">
+              <h5 class="aside-title">Recent Posts</h5>
+              <article class="post-item">
+                <div class="post-thumb">
+                  <a href=""><img width="100" height="90" src="assets/images/post/post-img-01.jpg" class="img-responsive"></a>
+                </div>
+                <div class="post-body">
+                  <span class="font-14px"><a href="">Web Design</a></span>
+                  <div class="post-time">1/01/2018 </div>
+                  <a href="" class="subtitle">Travel Adventure</a>
+                </div>
+              </article>
+              <article class="post-item">
+                <div class="post-thumb">
+                  <a href=""><img width="100" height="90" src="assets/images/post/post-img-02.jpg" class="img-responsive"></a>
+                </div>
+                <div class="post-body">
+                  <span class="font-14px"><a href="">Small Business</a></span>
+                  <div class="post-time">5/03/2018 </div>
+                  <a href="" class="subtitle">Photography</a>
+                </div>
+              </article>
+              <article class="post-item">
+                <div class="post-thumb">
+                  <a href=""><img width="100" height="90" src="assets/images/post/post-img-03.jpg" class="img-responsive"></a>
+                </div>
+                <div class="post-body">
+                  <span class="font-14px"><a href="">SEO Marketing</a></span>
+                  <div class="post-time">4/05/2018 </div>
+                  <a href="" class="subtitle">Web Development</a>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+  </section>
+  <!--== Blog Grid Post End ==-->
+
+  <!--== Footer Start ==-->
+  <footer class="footer" id="footer-fixed">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <div class="widget widget-text">
+              <h5 class="widget-title">Contact Info</h5>
+              <p>
+                Perspiciatis unde omnis iste natus sit volutat em accusantium
+              </p>
+              <div class="contact-detail">
+                  <ul>
+                    <li><i class="icofont icofont-location-pin gradient-color"></i>380 St Kilda Road, Sydeny VIC 3004, Australia</li>
+                    <li><i class="icofont icofont-ui-call gradient-color"></i> +123 (4567) 890</li>
+                    <li><i class="icofont icofont-envelope gradient-color"></i> info@agency.com</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="widget widget-links">
+              <h5 class="widget-title">Useful Links</h5>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="widget widget-links">
+              <h5 class="widget-title">Other Services</h5>
+              <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Meetup</a></li>
+                <li><a href="#">Help Center</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <div class="widget widget-text">
+              <h5 class="widget-title">Working Hours</h5>
+              <p>Our support available to help you 24 hours a day, seven days a week.</p>
+              <p><strong>Monday to Friday</strong> – <span class="gradient-color">9AM – 6PM</span></p>
+              <p><strong>Saturday to Sunday</strong> – <span class="gradient-color">9AM – 1PM</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="copy-right text-left">© 2019 <span class="gradient-color">Ascot One Page.</span> All rights reserved</div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <ul class="social-media">
+              <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+      			  <li><a href="#" class="icofont icofont-social-twitter"></a></li>
+      			  <li><a href="#" class="icofont icofont-social-behance"></a></li>
+      			  <li><a href="#" class="icofont icofont-social-dribble"></a></li>
+           	  <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--== Footer End ==-->
+
+  <!--== Go to Top  ==-->
+  <a href="javascript:" id="return-to-top"><i class="icofont icofont-arrow-up"></i></a>
+  <!--== Go to Top End ==-->
+
+</div>
+<!--== Wrapper End ==-->
+
+<!--== Javascript Plugins ==-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJNGOwO2hJpJ9kz8e0UUPjZhEbgDJTTXE"></script>
+<script src="assets/js/jquery.min.js"></script>
+<!--<script src="assets/js/smoothscroll.js"></script>-->
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/master.js"></script>
+
+<!-- Revolution js Files -->
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<!-- <script type="text/javascript" src="revolution/js/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="revolution/js/revolution.extension.video.min.js"></script>
+ -->
+<!--== Javascript Plugins End ==-->
+
+</body>
+</html>
