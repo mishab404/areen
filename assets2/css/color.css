@@ -1,0 +1,22 @@
+:root {
+     --color-theme:#F29F05;
+  }
+
+/* Color */
+
+.wilmington i,.button-2:hover,.bag i,.dish-info i,.previous-posts a,.address i,
+.cafa i,.cafa h4 a:hover,a.button-2.non,ul.food-dishes li i,.comment h2 span,.counter-container h3,
+.cafa-button a,.food-photo-section a i,.services-card-style i,ul.crumbs li a i,.title-checkout h6,
+.count-time h2,.count-time span,.counter-img-data h2,.team-description i,.title-container span,
+.reviews-img i,.thomas i,.news-post-two h6 a:hover,ul.footer-menu li a:hover,.pricing-plan-list h5 i,
+ul.crumbs li.two i,ul.paragraph li i,.choose-lunches h3,.star i,.services-card-style h4 a:hover,
+.comment-text span,li.hide-button h6,.totel-price h2,.error-page h2 {
+    color: var(--color-theme);
+}
+/* Background color-theme */
+.cafa-button a:hover,.quickeat a,ul.social-media li a i:hover,
+.banner-img h4,.button-price,.menu-dish li:before,.hours i,.services-card-style:hover i,
+.error-page a i,.questions i,.join-img-blog i,.pricing-table-cards h6,.blog-list li:before,
+.mobile-nav > ul > li.menu-item-has-children.active > ul.sub-menu li:before,.page-loader	{
+	 background-color: var(--color-theme);
+}

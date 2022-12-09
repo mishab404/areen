@@ -1,0 +1,1267 @@
+@media(max-width: 1700px){
+    .good-taste h2{
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+@media(max-width: 1400px){
+    .restaurant h1{
+        width: 82%;
+    }
+    .dish h3 {
+        line-height: 36px;
+        font-size: 26px;
+    }
+    .single-blog .about-text h2{
+        font-size: 42px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .address span {
+        margin-top: -5px;
+        display: block;
+    }
+    .address h5 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .address span {
+        margin-bottom: 10px;
+    }
+    header{
+        padding-top: 0;
+    }
+    .counter-container h3 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .navbar{
+        padding: 30px 0;
+    }
+    .counters-section h2{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .counters-section .count-time h2 {
+        font-size: 48px;
+    }
+    .news-section h2{
+        width: 50%;
+    }
+    .reviews-content h4{
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 24px;
+    }
+    .restaurant p {
+        width: 89%;
+    }
+    .error-page form input[type="text"]{
+        width: 60%;
+    }
+    .img-restaurant img,.about-text h2,.img-blog-full img,.photo-blog img{
+        width: 100%;
+    }
+    .wilmington{
+        width: 61%;
+    }
+    .best-restaurants .logos-card img {
+        margin-right: 20px;
+    }
+    .join-img:before {
+        width: 91%;
+        height: 91%;
+        top: 15%;
+    }
+    .news-post-two-data p{
+        display: none;
+    }
+    .news-post-two h6 a{
+        width: 100%;
+    }
+    .wilmington img{
+        width: auto;
+    }
+    .wilmington.location-restaurant {
+        top: 17%;
+        width: 43%;
+        left: 56%;
+    }
+    .food-content-section {
+        padding-left: 30px;
+    }
+    .food-content-section h2 {
+        font-weight: bold;
+        width: 88%;
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .error-page form button {
+        right: 20%; 
+    }
+    .about-img img {
+        width: 90%;
+        height: auto;
+    }
+    .about-img:before {
+        height: 476px;
+        width: 509px;
+    }
+    .our-mission-img img {
+        width: 100%;
+    }
+    .our-mission-text h2{
+        font-size: 42px;
+    }
+    .card-text-data h3 {
+        width: 100%;
+    }
+    .video-section-img:before {
+        height: 46%;
+        width: 82%;
+    }
+    .video-section-img i{
+        left: 50%;
+    }
+    .video-section-img img {
+        width: 100%;
+    }
+    .counter-hading h2 {
+        font-size: 34px;
+        line-height: 57px;
+    }
+    .about-counters-img img {
+        width: 100%;
+    }
+    .our-team img {
+        width: 100%;
+    }
+    .our-team:before {
+        height: 324px;
+        width: 362px;
+    }
+    .our-team p{
+        width: 100%;
+    }
+    .subscribe-section.about .get-the-menu h2{
+        width: 100%;
+    }
+    .subscribe-section.about .get-the-menu input[type="text"] {
+        width: 43%;
+    }
+    .subscribe-section.about .get-the-menu form i {
+        left: 23%;
+     }
+     .benefit-text h2{
+        font-size: 42px;
+        line-height: 52px;
+     }
+     .quickeat {
+        top: 8%;
+        left: 8%;
+    }
+    ul.data li {
+            padding-right: 13px;
+    }
+    .join-img-blog img{
+        width: 100%;
+    }
+    .join-img-blog:before{
+        width: 100%;
+        height: 100%;
+    }
+    .counter-blog .counter-img-data {
+        width: 45%;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .news-posts-one.blog .quickeat {
+        top: 7%;
+        left: 11%;
+    }
+    .restaurants-girl-img.blog.food-photo-section a.one {
+        top: 31%;
+    }
+    .restaurants-girl-img.blog.food-photo-section a.three {
+        top: 59%;
+    }
+    .news-posts-one h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .news-posts-one h3 {
+        padding: 25px 0 25px;
+    }
+    .news-post-two{
+        padding-bottom: 15px;
+    }
+    .restaurants-girl-img.blog.food-photo-section a.three {
+        top: 61%;
+    }
+    .restaurants-girl-img.blog.food-photo-section a.one {
+        top: 29%;
+    }
+    .contact-us-img img,.form-section-img img{
+        width: 100%;
+    }
+    .address h6{
+        font-size: 13px;
+    }
+    .address span {
+        font-size: 10px;
+    }
+    .hero-section .join-img-blog img{
+        margin-top: 40px;
+    }
+    .join-img-blog i{
+        top: 17%;
+    }
+    .pricing-table-cards img {
+        left: -47%;
+    }
+    .pricing-table-cards-pric h4{
+        font-size: 60px;
+    }
+    .pricing-table-cards-pric {
+        margin-left: 119px;
+    }
+    .pricing-table-cards h6 {
+        font-size: 16px;
+        z-index: 11;
+        padding: 7px 16px;
+    }
+    .pricing-plan-list h5 {
+        font-size: 14px;
+        margin: 0;
+    }
+    .dish img {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .footer-description h2{
+        width: 100%;
+    }
+    .footer-description p{
+        width: 85%;
+    }
+    .restaurants-girl-img.food-photo-section a.one{
+        top: 14%;
+    }
+    .restaurants-girl-img.food-photo-section a.three{
+        top: 53%;
+    }
+    .restaurants-girl-img.food-photo-section a.for{
+        top: 72%;
+    }
+    .logos-card.restaurant-page {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .cafa{
+        margin-left: 0;
+    }
+    .logos-card img {
+        margin-bottom: 20px;
+    }
+    .counter-img img{
+        width: 100%;
+    }
+    .counter-img-data{
+        width: 70%;
+    }
+    .hero-section-img-service:before {
+        height: 517px;
+        width: 484px;
+    }
+    .services-card-style{
+        padding: 24px;
+    }
+    .work-card.service img{
+        width: 100%;
+    }
+    .sit-at-img img{
+        width: 100%;
+    }
+    .sit-at-img:before {
+        height: 92%;
+        width: 100%;
+    }
+    .sit-at-img .counter-img-data {
+        bottom: 18%;
+        width: 36%;
+        right: -11%;
+    }
+    .menu-inner .counter-container{
+        padding: 0;
+    }
+    .menu-inner .checkout-order .banner-wilmington {
+        margin-left: 0;
+        padding-top: 0px;
+    }
+    .menu-inner .totel-price h2 {
+        font-weight: bold;
+        line-height: 44px;
+        font-size: 32px;
+    }
+    body.active .menu-inner{
+        padding-top: 10px;
+    }
+    .menu-inner .totel-price h2 {
+        font-weight: bold;
+        line-height: 48px;
+        font-size: 38px;
+    }
+    .menu-inner .counter-container h4 {
+        font-size: 16px;
+        margin: 0;
+        line-height: 26px;
+        width: 56%;
+    }
+    .menu-inner .price h2 {
+        font-weight: bold;
+        line-height: 48px;
+        font-size: 38px;
+    }
+    .menu-inner .title-checkout h6,.menu-inner .title-checkout h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .menu-inner .counter-food img {
+        width: 100px;
+    }
+    .comment-slide.owl-carousel .owl-nav.disabled {
+        left: -28%;
+        top: 74%;
+    }
+    .good-taste h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .news-posts-one.blog h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .previous-posts h6 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .team-description h4{
+        font-size: 20px;
+        margin: 0;
+    }
+}
+@media(max-width: 1200px){
+    .about-text h2{
+        width: 100%;
+    }
+    .previous-posts h6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .owl-dot {
+        display: none !important;
+    }
+    .comment-slide.owl-carousel .owl-nav.disabled {
+        left: 46%;
+        top: 98%;
+    }
+    .hero-section{
+        padding-top: 105px;
+    }
+    .good-taste {
+        width: 100%;
+        margin: auto;
+        margin-left: 33px;
+        margin-bottom: 40px;
+    }
+    .work-card.service{
+        padding: 22px;
+    }
+    header.two{
+        padding-top: 30px;
+    }
+    .card-text-data {
+        margin-top: 40px;
+    }
+    .count-time {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .our-team:before {
+        height: 64%;
+        width: 100%;
+    }
+    .our-team-section .hading p {
+        padding-bottom: 0px;
+        width: 100%;
+    }
+    .our-team{
+        margin-top: 40px;
+    }
+    .subscribe-section.about .get-the-menu input[type="text"] {
+        width: 48%;
+    }
+    .subscribe-section.about .get-the-menu form i {
+        left: 20%;
+    }
+    ul.data li {
+        padding-right: 20px;
+    }
+    .join-the{
+        margin-left: 20px;
+    }
+    .join-the h2{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .counter-blog .counter-img-data {
+        width: 46%;
+        padding: 20px;
+    }
+    .posts-section-blog .news-posts-one.full{
+        flex-wrap: wrap;
+    }
+    .blog-post-data-img img {
+        width: 873px;
+    }
+    .blog-post-data-img .quickeat {
+        top: 6%;
+        left: 6%;
+    }
+    .get-the-menu h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .address h6 {
+        font-size: 16px;
+    }
+    .address span {
+        font-size: 14px;
+    }
+    .contact-us-img img{
+        margin-top: 40px;
+    }
+    .contact-map-data{
+        flex-wrap: wrap;
+    }
+    .contact-map-data iframe {
+        width: 100%;
+        height: 350px;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .Provides {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Provides form{
+        margin-top: 40px;
+    }
+    .questions,.questions.answer{
+        width: 85%;
+    }
+    .pricing-table-cards img {
+        left: -33%;
+    }
+    .pricing-table-cards-pric {
+        margin-left: 159px;
+    }
+    .pricing-table-cards {
+        margin-bottom: 40px;
+    }
+    .counter-img-data {
+        width: 87%;
+    }
+    .hero-section-img-service:before {
+        height: 454px;
+        width: 388px;
+    }
+    .services-info h2,.services-cards-text h2{
+        width: 100%;
+    }
+    .services-info {
+        margin-bottom: 40px;
+    }
+    .services-card-style {
+        padding: 45px;
+    }
+    .services-cards-text h2{
+        margin-top: 40px;
+    }
+    .sit-at-home-description h2 {
+        margin-top: 50px;
+    }
+    .sit-at-img .counter-img-data{
+        width: 23%;
+    }
+    .restaurant h1{
+        width: 98%;
+    }
+    .wilmington {
+        width: 67%;
+    }
+    .wilmington.location-restaurant{
+        width: 53%;
+    }
+    .logos-card{
+        flex-wrap: wrap;
+    }
+    .counters-section .count-time h2 {
+        font-size: 70px;
+    }
+    .news-posts-one{
+        margin-bottom: 40px;
+    }
+    .services-card-style {
+        margin-bottom: 40px;
+    }
+    form.checkout-form {
+        margin-top: 60px;
+    }
+    .navbar,.extras.bag{
+        display: none;
+    }
+    header{
+        padding: 30px 0;
+    }
+    .header-style .extras.bag {
+        display: flex;
+    }
+    .mobile-nav{
+        width: 45%;
+    }
+    .menu-inner{
+        width: 52%;
+    }
+}
+@media(max-width: 993px){
+    .error-page p {
+        width: 90%;
+    }
+    .services-cards-text h2{
+        margin-bottom: 0;
+    }
+    .services-cards-text{
+        margin-bottom: 40PX;
+    }
+    .our-mission-section {
+        padding: 0;
+    }
+    .food-content-section {
+        padding-left: 0px;
+    }
+    .error-page h2{
+        right: 18%;
+    }
+    .author-text.item {
+        margin-left: 2%;
+        width: 98%;
+    }
+    .menu-inner{
+        width: 70%;
+    }
+    .about-img img{
+        margin-top: 40px;
+    }
+    .about-img:before {
+        height: 645px;
+        width: 627px;
+    }
+    .our-mission-img img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .wait-a-minute h2,.wait-a-minute p {
+        width: 100%;
+    }
+    .video-section-img img {
+        margin-top: 50px;
+    }
+    .video-section-img:before {
+        height: 46%;
+        width: 82%;
+        top: 10%;
+    }
+    .about-counters-img img {
+        margin-bottom: 40px;
+    }
+    .our-team:before {
+        height: 303px;
+    }
+    .subscribe-section.about .get-the-menu h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .subscribe-section.about .get-the-menu form i {
+        left: 17%;
+    }
+    .join-courier {
+        margin-top: 40px;
+        position: relative;
+        top: 0%;
+        width: 100%;
+    }
+    .Benefit-section{
+        padding: 0;
+    }
+    .hero-section.about.blog-page{
+        padding-bottom: 0;
+    }
+    .team-description{
+        padding: 24px;
+
+    }
+    .team-description h4{
+        font-size: 22px;
+    }
+    ul.data li {
+        padding-right: 8px;
+    }
+    .counter-blog .counter-img-data {
+        width: 48%;
+        padding: 40px;
+    }
+    .join-the {
+        margin-left: 0;
+        margin-top: 80px;
+     }
+     .blog-post-data-img img,.reviews-content h2,.reviews-content h4 {
+        width: 100%;
+    }
+    .food-photo-section img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .get-the-menu input[type="text"]{
+        width: 80%;
+    }
+    .get-the-menu{
+        margin-top: 40px;
+    }
+    .questions,.questions.answer{
+        width: 95%;
+    }
+    .pricing-table-cards {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    .pricing-table-cards img {
+        left: -19%;
+    }
+    .pricing-table-cards-pric h3{
+        width: 40%;
+    }
+    .hero-section.about .restaurant .nice-select{
+        width: 100%;
+    }
+    .hero-section-img-service{
+        margin-top: 65px;
+    }
+    .hero-section-img-service:before {
+        height: 100%;
+        width: 78%;
+    }
+    .counter-img-data {
+        width: 61%;
+    }
+    .services-info p {
+        width: 100%;
+    }
+    .work-card.service {
+        padding: 70px;
+    }
+    .hading p{
+        width: 100%;
+    }
+    .sit-at-img .counter-img-data{
+        width: 30%;
+    }
+    .title-container h2{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .title-container h3{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .previous-posts.next{
+        justify-content: end;
+    }
+    .blog-content .name-dedails{
+        padding: 20px 0;
+    }
+    .img-restaurant img{
+        padding-top: 40px;
+    }
+    .count-time{
+        margin-top: 40px;
+    }
+    .wilmington {
+        width: 43%;
+        
+    }
+    .wilmington img{
+        padding-top: 0;
+    }
+    .reviews-img img {
+        margin-top: 80px;
+    }
+    .food-content-section h2,.food-content-section p{
+        width: 100%;
+    }
+    .reviews-img i{
+        top: 17%;
+    }
+    .join-img:before{
+        height: 86%;
+    }
+    .wilmington.location-restaurant {
+        width: 34%;
+    }
+    .food-content-section h2{
+        margin-top: 20px;
+    }
+    .join-partnership h2{
+        font-size: 42px;\
+        line-height: 52px;
+    }
+    .city-restaurants{
+        margin-bottom: 40px;
+    }
+    .menu.contacts {
+        margin-top: 40px;
+    }
+    .footer-two {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width: 768px){
+    .error-page form input[type="text"],.mobile-nav,.menu-inner{
+        width: 100%;
+    }
+    .our-team-section {
+        padding-top: 0;
+    }
+    .error-page form button {
+        right: 0%; 
+    }
+    .about-text.pricing-table p{
+        width: 100%;
+    }
+    .counter-container h4{
+        width: 57%;
+    }
+    .error-page h2{
+        right: 9%;
+    }
+
+    .error-page p {
+        width: 100%;
+    }
+    .about-img:before {
+        height: 490px;
+        width: 495px;
+    }
+    .about-text p,.footer-description p {
+        width: 100%;
+    }
+    .our-team:before {
+        height: 466px;
+        width: 100%;
+    }
+    .menu {
+        margin-top: 40px;
+    }   
+    .footer-two{
+        margin-top: 40px;
+    }
+    .subscribe-section.about .get-the-menu input[type="text"] {
+        width: 66%;
+    }
+    .subscribe-section.about .get-the-menu h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .subscribe-section.about .get-the-menu form i {
+        left: 4%;
+    }
+    .news-posts-one{
+        margin-bottom: 40px;
+    }
+    .news-about-us .button-gap{
+        padding-top: 0;
+    }
+    .questions,.questions.answer{
+        width: 100%;
+    }
+    .questions {
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: start;
+    }
+    .card-text-data h3{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .price-list .price{
+        padding-top: 7px;
+    }
+    .get-the-menu form i{
+        left: 4%;
+    }
+    .questions h6{
+        padding-top: 15px;
+    }
+    .questions.answer {
+        flex-wrap: inherit;
+    }
+    .questions.answer i {
+        margin-top: -20px;
+    }
+    .pricing-table-cards img {
+        left: -26%;
+    }
+    .dish {
+        text-align: center;
+    }
+    .lunch-section h2 {
+        font-weight: bold;
+        width: 100%;
+    }
+    .like-meal {
+        display: none;
+    }
+    .counter-img-data{
+        width: 80%;
+    }
+    .services-cards-text ul.paragraph li{
+        width: 100%;
+    }  
+    .services-cards {
+        padding: 0;
+    }
+    .sit-at-img .counter-img-data{
+        width: 38%;
+    }
+    .sit-at-home-description h2{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .quote-text{
+        flex-wrap: wrap;
+    }
+    .quote-text h4{
+        padding-left: 0;
+        padding-top: 25px;
+    }
+    .blog-list li{
+        width: 100%;
+    }
+    .quote {
+        padding: 40px 0;
+    }
+    .photo-blog {
+        padding: 20px 0;
+    }
+    .img-blog-full img{
+        border-radius: 25px;
+    }
+    .hero-section.about.single-blog {
+        padding-bottom: 40px;
+    }
+    ul.comment {
+        padding: 0px 0 40px;
+    }
+    .single-blog .about-text h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .food-photo-section a.one {
+        top: 75%;
+        right: 68%;
+    }
+    .food-photo-section a.two{
+        top: 75%;
+        right: 41%;
+    }
+    .food-photo-section a.three {
+        top: 75%;
+        right: 17%;
+    }
+    .nice-select-one{
+        flex-wrap: wrap;
+    }
+    .restaurant .nice-select{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .wilmington {
+        width: 63%;
+    }
+    .wilmington.location-restaurant {
+        width: 50%;
+    }
+    .city-restaurants h2,.news-section h2{
+        width: 100%;
+    }
+    .news-post-two {
+        flex-wrap: wrap;
+    }
+    .news-post-two-data{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .join-img:before {
+        height: 91%;
+        top: 13%;
+    }
+    .news-post-two h6 a{
+        width: 100%;
+    }
+}
+@media(max-width: 576px){
+    .error-page img {
+        width: 100%;
+    }
+    .thomas h6 {
+        margin-top: 14px;
+    }
+    .author-text.item{
+        margin-left: 0;
+    }
+    .about-text.pricing-table ul.crumbs {
+        flex-wrap: wrap;
+    }
+    .work-card.service {
+        padding: 40px;
+    }
+    .about-img img {
+        width: 80%;
+    }
+    .benefit-text h2 {
+        font-size: 34px;
+        line-height: 49px;
+    }
+    .counter-hading h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .about-img:before {
+       display: none;
+    }
+    .count-time{
+        margin-bottom: 20px;
+    }
+    .our-team:before {
+        height: 70%;
+    }
+    .counter-blog{
+        flex-wrap: wrap;
+    }
+    .counter-blog .counter-img-data{
+        width: 100%;margin-bottom: 20px;
+    }
+    .join-img-blog:before{
+        left: 0%;
+    }
+    .join-img-blog img {
+        padding-right: 20px;
+    }
+    .join-img-blog:before{
+        top: 13%;
+    }
+    .join-img-blog i {
+        top: 9%;
+        left: 0%;
+    }
+    .join-img-blog i{
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+    }
+    .counter-img-data{
+        padding: 20px;
+        width: 68%;
+    }
+    .counter-img-data h2{
+        font-size: 50px;
+    }
+    .sit-at-img img {
+        padding-right: 22px;
+    }    
+    .sit-at-img .counter-img-data{
+        right: 0;
+    }
+    .sit-at-img:before{
+        width: 89%;
+    }
+    .count-time{
+        margin-top: 20px;
+    }
+    .reviews-img img {
+        margin-top: 120px;
+    }
+    .reviews-img i {
+        top: 26%;
+        font-size: 50px;
+    }
+    .wilmington {
+        width: 70%;
+    }
+    .hading p{
+        padding-top: 20px;
+    }
+}
+@media(max-width: 480px){
+    .wait-a-minute h2{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .join-img:before {
+        height: 87%;
+        top: 18%;
+    }
+    .restaurant h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .Join-courier h3{
+        font-size: 24px;
+    }
+    .Join-courier{
+        top: 58%;
+    }
+    .title-container h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .title-container h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .title-container h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .our-team:before {
+        height: 68%;
+    }
+    .subscribe-section.about .get-the-menu form{
+        flex-wrap: wrap;
+    }
+    .subscribe-section.about .get-the-menu input[type="text"]{
+        height: 60px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .subscribe-section.about .get-the-menu form i{
+        top: 20%;
+    }
+    .blog-post-data-img .quickeat {
+        top: 6%;
+        left: 9%;
+    }
+    .news-posts-one h3 {
+        padding: 23px 0 5px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .restaurants-girl-img.blog.food-photo-section a{
+        height: 50px;
+        width: 50px;
+    }
+    .restaurants-girl-img.blog.food-photo-section a i {
+        padding: 5px;
+        font-size: 18px;
+    }
+    .get-the-menu h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .get-the-menu form{
+        flex-wrap: wrap;
+    }
+    .get-the-menu input[type="text"]{
+        width: 100%;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .get-the-menu form i {
+        top: 17%;
+        left: 3%;
+    }
+    .nav-pills .nav-link {
+        padding: 0 21px 0 7px;
+    }
+    .Provides input[type="text"]{
+        width: 168px;
+    }
+    .pricing-table-cards img {
+        left: -31%;
+    }
+    .pricing-table-cards-pric h3 {
+        width: 100%;
+    }
+    .hours.two {
+        top: 71%;
+        left: 0;
+    }
+    .hours {
+        top: 6%;
+        left: 32%;
+    }
+    ul.crumbs li {
+        padding-right: 10px;
+    }
+    .cafa-button a.end,.restaurants-girl-img.food-photo-section a.for {
+        display: none;
+    }
+    .restaurants-girl-img.food-photo-section a.three {
+        top: 55%;
+    }
+    
+    .food-photo-section a.two {
+        right: 16%;
+        top: 61%;
+    }
+    .food-photo-section a.three {
+        right: 57%;
+        top: 79%;
+        }
+    .food-photo-section a {
+        width: 40%;
+    }
+    .food-photo-section a.one{
+        right: 59%;
+        top: 61%;
+    }
+    .your-favorite-food .food-photo-section img {
+        margin-top: 0;
+        margin-bottom: 64px;
+    }
+    .wilmington.location-restaurant {
+        width: 80%;
+        left: 17%;
+        top: 3%;
+    }
+    .img-restaurant .wilmington img{
+        padding-top: 0;
+    }
+    .img-restaurant img {
+        padding-top: 100px;
+    }
+    .wilmington {
+        width: 89%;
+    }
+    .counter-container h4 {
+        padding-left: 18px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 450px){
+    .our-team:before {
+        height: 62%;
+    }
+    .news-posts-one .quickeat a{
+        font-size: 12px;
+    }
+    .Provides input[type="text"]{
+        width: 130px;
+    }
+    .dish h3{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .counter-img-data{
+        width: 86%;
+    }
+}
+@media(max-width: 410px){
+    .error-page h2 {
+        right: 9%;
+        font-size: 60px;
+        top: 52%;
+        padding: 10px;
+    }
+    .work-card{
+        padding-top: 60px;
+    }
+    .Join-courier a.button.button-2 {
+        font-size: 12px;
+    }
+    .Join-courier h3 {
+        font-size: 24px;
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .count-time span{
+        font-size: 60px;
+    }
+    .custome.owl-theme .owl-nav {
+        bottom: -22%;
+    }
+    .counter-img-data h2{
+        padding-bottom: 0;
+        font-size: 40px;
+    }
+    .pricing-table-cards img {
+        left: -47%;
+    }
+    .pricing-table-cards-pric {
+        margin-left: 115px;
+    }
+    .join-img-blog:before{
+        top: 17%;
+    }
+    .Provides input[type="text"]{
+        width: 92px;
+    }
+    .our-mission-text h2 {
+        font-size: 33px;
+        line-height: 43px;
+    }
+    .about-img:before {
+        height: 327px;
+        width: 310px;
+    }
+    .about-img:before {
+       display: block;
+    }
+    .about-text h2{
+        font-size: 42px;
+    }
+    .join-the {
+        margin-top: 46px;
+    }
+    .join-the h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .nav-pills .nav-link {
+        font-size: 16px;
+        padding: 0 11px 0 0px;
+    }
+}
+@media(max-width: 375px){
+    .about-img:before {
+        height: 306px;
+        width: 316px;
+    }
+    .pricing-table-cards img {
+        left: -52%;
+    }
+    .pricing-table-cards-pric {
+        margin-left: 115px;
+    }
+
+    .our-team:before {
+        height: 59%;
+    }
+}
