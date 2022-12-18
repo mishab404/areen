@@ -18,14 +18,30 @@
 <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
 
 </head>
+<style>
+  .cbp .cbp-item.with-spacing {
+    padding: 35px;
+}
+  .cbp-item-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.062), 0 6px 20px 0 rgba(0, 0, 0, 0.048);
+    padding-bottom: 40px;
+}
+</style>
 <body>
 
 <!--== Loader Start ==-->
-<div id="loader-overlay">
+<!-- <div id="loader-overlay">
   <div class="loader">
       <div class="loader-inner"></div>
   </div>
-</div>
+</div> -->
 <!--== Loader End ==-->
 
 <!--== Wrapper Start ==-->
@@ -47,13 +63,13 @@
     <!--== End Top Search ==-->
     <div class="container-fluid">
       <!--== Start Atribute Navigation ==-->
-      <div class="attr-nav hidden-xs sm-display-none">
+      <!-- <div class="attr-nav hidden-xs sm-display-none">
         <ul class="social-media-dark social-top">
           <li class="side-menu"><a href="#"><i class="icofont icofont-navigation-menu"></i></a></li>
           <li><a href="#" class="icofont icofont-social-facebook"></a></li>
           <li><a href="#" class="icofont icofont-social-twitter"></a></li>
         </ul>
-      </div>
+      </div> -->
       <!--== End Atribute Navigation ==-->
 
       <!--== Start Header Navigation ==-->
@@ -82,10 +98,10 @@
                <li><a href="onepage.html">One Page</a></li>             </ul>
            </li> -->
            <li><a class="page-scroll" href="index.html">Home</a></li>
-           <li><a class="page-scroll" href="#work">About Us</a></li>
-           <li><a class="page-scroll" href="products.html">Products</a></li>
-           <li><a class="page-scroll" href="#team">Services</a></li>
-           <li><a class="page-scroll" href="#pricing">Goals</a></li>
+           <li><a class="page-scroll" href="index.html">About Us</a></li>
+           <li><a class="page-scroll" href="#product">Products</a></li>
+           <li><a class="page-scroll" href="index.html">Services</a></li>
+           <li><a class="page-scroll" href="index.html">Goals</a></li>
            <li><a class="page-scroll" href="#contact">Contacts</a></li>
         </ul>
       </div>
@@ -93,7 +109,7 @@
     </div>
 
     <!-- Start Side Menu -->
-    <div class="side dark-bg">
+    <!-- <div class="side dark-bg">
   		  <a href="index.html" class="logo-side"><img src="assets/images/logo-sidemenu.png" alt="side-logo"/></a>
         <a href="#" class="close-side"><i class="icofont icofont-close"></i></a>
         <div class="widget mt-120">
@@ -113,7 +129,7 @@
           <li><a href="#" class="icofont icofont-social-dribble"></a></li>
           <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
         </ul>
-     </div>
+     </div> -->
      <!-- End Side Menu -->
 
   </nav>
@@ -127,7 +143,7 @@
 <ul>	<!-- SLIDE  -->
 	<li data-index="rs-3046" data-transition="fadethroughdark" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1500"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="Parallax" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 		<!-- MAIN IMAGE -->
-		<img src="assets/img/bg1.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+		<img src="assets/img/banner3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 		<!-- LAYERS -->
 
 		<!-- LAYER NR. 4 -->
@@ -283,7 +299,7 @@
 			data-paddingleft="[0,0,0,0]"
 
 			style="z-index: 14;border-width:0px;">
-<div class="rs-looped rs-wave"  data-speed="4" data-angle="0" data-radius="10" data-origin="50% 50%"><img src="assets/images/blurflake1.png" alt="" data-ww="['820px','820px','520px','320px']" data-hh="['820px','820px','520px','320px']" width="820" height="820" data-no-retina> </div></div>
+</div>
 	</li>
 
 
@@ -298,12 +314,12 @@
 
   
   <!--== Portfolio Start ==-->
-  <section class="white-bg dark-block" id="work">
+  <section class="white-bg dark-block" id="product">
   	<div class="container">
       <div class="row">
         <div class="col-sm-8 section-heading">
-       		  <h5 class="default-color mt-0 text-uppercase">Our Feature Works</h5>
-            <h2 class="mt-0 font-700">Creative Solutions Are<br> Brought To Life</h2>
+       		  <h5 class="default-color mt-0 text-uppercase">Our Products.</h5>
+            <h2 class="mt-0 font-700">WHAT WE SERVE & DELIVER.</h2>
         </div>
       </div>
     	<div class="row mt-50">
@@ -312,14 +328,17 @@
                 <div data-filter="*" class="cbp-filter-item-active cbp-filter-item dark">
                     All
                 </div>
-                <div data-filter=".branding" class="cbp-filter-item">
-                    Brand Name
+                <div data-filter=".foods" class="cbp-filter-item">
+                    Aflah Foods
                 </div>
-                <div data-filter=".print" class="cbp-filter-item">
-                  Brand Name
+                <div data-filter=".spice" class="cbp-filter-item">
+                  Aflah Spice Catering & Food Service
                 </div>
-                <div data-filter=".web-design" class="cbp-filter-item">
-                  Brand Name
+                <div data-filter=".retail" class="cbp-filter-item">
+                  Aflah Spice Retail Solutions
+                </div>
+                <div data-filter=".bakes" class="cbp-filter-item">
+                  Aflah Bakes
                 </div>
             
             </div>
@@ -328,113 +347,887 @@
             <div class="col-md-12">
 
             <div id="portfolio-gallery" class="cbp">
-                <div class="cbp-item branding col-md-4 col-sm-6 with-spacing text-center">
+
+              <!---------FOODS---------------------->
+                <div class="cbp-item foods col-md-4 col-sm-6 with-spacing text-center">
                     <div class="cbp-caption">
                         <div class="cbp-caption-defaultWrap">
-                        	<img src="assets/img/11.png" alt="">
+                        	<img src="assets/img/products/1.png" alt="">
                         </div>
                         <div class="cbp-caption-activeWrap dark">
                             <div class="cbp-l-caption-alignCenter">
                                 <div class="cbp-l-caption-body">
-                                    <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow"><i class="icofont icofont-link"></i></a>
-                            		<a href="assets/img/11.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Natural Science<br>by Designs Ninja"><i class="icofont icofont-search"></i></a>
+  
+                            		<a href="assets/img/products/1.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Liquid Creamer Original"><i class="icofont icofont-search"></i></a>
                                 </div>
                             </div>
                        	 </div>
                     </div>
-                    <div class="cbp-l-grid-projects-title dark-color font-700">Natural Science</div>
-           			    <div class="cbp-l-grid-projects-desc default-color font-14px">Web Design / Photography</div>
-                </div>
+                    <div class="cbp-l-grid-projects-title dark-color font-700">Areen Liquid Creamer Original</div>
+           			    <br>
+                       <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹10.25/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+            </div>
 
-                <div class="cbp-item branding advertising col-md-4 col-sm-6 with-spacing text-center">
+
+                <div class="cbp-item foods col-md-4 col-sm-6 with-spacing text-center">
+                  <div class="cbp-caption">
+                      <div class="cbp-caption-defaultWrap">
+                        <img src="assets/img/products/1.png" alt="">
+                      </div>
+                      <div class="cbp-caption-activeWrap dark">
+                          <div class="cbp-l-caption-alignCenter">
+                              <div class="cbp-l-caption-body">
+
+                              <a href="assets/img/products/1.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Liquid Creamer Cardamom"><i class="icofont icofont-search"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="cbp-l-grid-projects-title dark-color font-700">Areen Liquid<br>Creamer Cardamom</div>
+                   <br>
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹10.25/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+              </div>
+
+
+              <div class="cbp-item foods col-md-4 col-sm-6 with-spacing text-center">
+                <div class="cbp-caption">
+                    <div class="cbp-caption-defaultWrap">
+                      <img src="assets/img/products/1.png" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap dark">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                            <a href="assets/img/products/1.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Milk Powder"><i class="icofont icofont-search"></i></a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="cbp-l-grid-projects-title dark-color font-700">Areen Milk Powder</div>
+                 <br>
+                    <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>400G</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹10.25/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+            </div>
+
+            <div class="cbp-item foods col-md-4 col-sm-6 with-spacing text-center">
+              <div class="cbp-caption">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cbp-caption-activeWrap dark">
+                      <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body">
+                          <a href="assets/img/products/1.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Tea Powder"><i class="icofont icofont-search"></i></a>
+                          </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="cbp-l-grid-projects-title dark-color font-700">Tea Powder</div>
+               <br>
+                  <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>5KG</b></a>
+              <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹78.49/-</b></a>
+              <br><br>
+              
+     
+               <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+          </div>
+
+
+<!-------------------------------------Aflah Spice Catering & Food Service SPICE---------------------->
+
+              <!---------1---------------------->
+                <div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
                    	<div class="cbp-caption">
                         <div class="cbp-caption-defaultWrap">
-                        	<img src="assets/img/22.png" alt="">
+                        	<img src="assets/img/products/2.png" alt="">
                         </div>
                         <div class="cbp-caption-activeWrap dark">
                             <div class="cbp-l-caption-alignCenter">
                                 <div class="cbp-l-caption-body">
-                                    <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow"><i class="icofont icofont-link"></i></a>
-                            		<a href="assets/img/22.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Cotton Pine<br>by Designs Ninja"><i class="icofont icofont-search"></i></a>
+  
+                            		<a href="assets/img/products/2.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Butter Chicken Curry Paste"><i class="icofont icofont-search"></i></a>
                                 </div>
                             </div>
                        	 </div>
                     </div>
-                    <div class="cbp-l-grid-projects-title dark-color font-700">Cotton Pine</div>
-           			<div class="cbp-l-grid-projects-desc default-color font-14px">Branding / Advertising</div>
+                    <div class="cbp-l-grid-projects-title dark-color font-700">Areen Butter Chicken<br>Curry Paste</div>
+                <br>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
                 </div>
 
-                <div class="cbp-item print web-design col-md-4 col-sm-6 with-spacing text-center">
-                   	<div class="cbp-caption">
-                        <div class="cbp-caption-defaultWrap">
-                        	<img src="assets/img/33.png" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap dark">
-                            <div class="cbp-l-caption-alignCenter">
-                                <div class="cbp-l-caption-body">
-                                    <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow"><i class="icofont icofont-link"></i></a>
-                            		<a href="assets/img/33.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Moon Pig<br>by Designs Ninja"><i class="icofont icofont-search"></i></a>
-                                </div>
-                            </div>
-                       	 </div>
-                    </div>
-                    <div class="cbp-l-grid-projects-title dark-color font-700">Moon Pig</div>
-           			<div class="cbp-l-grid-projects-desc default-color font-14px">Graphic / Printing</div>
-                </div>
+              <!---------2---------------------->
+                <div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+                  <div class="cbp-caption">
+                     <div class="cbp-caption-defaultWrap">
+                       <img src="assets/img/products/1.png" alt="">
+                     </div>
+                     <div class="cbp-caption-activeWrap dark">
+                         <div class="cbp-l-caption-alignCenter">
+                             <div class="cbp-l-caption-body">
+                             <a href="assets/img/products/1.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Kadai Chicken Curry Paste"><i class="icofont icofont-search"></i></a>
+                             </div>
+                         </div>
+                       </div>
+                 </div>
+                 <div class="cbp-l-grid-projects-title dark-color font-700">Areen Kadai Chicken<br>Curry Paste</div>
+             <br>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+             </div>
 
-                <div class="cbp-item photography advertising col-md-4 col-sm-6 with-spacing text-center">
-                   	<div class="cbp-caption">
-                        <div class="cbp-caption-defaultWrap">
-                        	<img src="assets/img/44.png" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap dark">
-                            <div class="cbp-l-caption-alignCenter">
-                                <div class="cbp-l-caption-body">
-                                    <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow"><i class="icofont icofont-link"></i></a>
-                            		<a href="assets/img/44.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Elephant Brading<br>by Designs Ninja"><i class="icofont icofont-search"></i></a>
-                                </div>
-                            </div>
-                       	 </div>
-                    </div>
-                    <div class="cbp-l-grid-projects-title dark-color font-700">Elephant Brading</div>
-           			<div class="cbp-l-grid-projects-desc default-color font-14px">Web Design / Branding</div>
-                </div>
+              <!---------3---------------------->
+             <div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+              <div class="cbp-caption">
+                 <div class="cbp-caption-defaultWrap">
+                   <img src="assets/img/products/5.png" alt="">
+                 </div>
+                 <div class="cbp-caption-activeWrap dark">
+                     <div class="cbp-l-caption-alignCenter">
+                         <div class="cbp-l-caption-body">
+                         <a href="assets/img/products/5.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Afghani Chicken Curry Paste"><i class="icofont icofont-search"></i></a>
+                         </div>
+                     </div>
+                   </div>
+             </div>
+             <div class="cbp-l-grid-projects-title dark-color font-700">Areen Afghani<br>Chicken Curry Paste</div>
+         <br>
+            <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+         </div>
 
-                <div class="cbp-item photography web-design col-md-4 col-sm-6 with-spacing text-center">
-                   	<div class="cbp-caption">
-                        <div class="cbp-caption-defaultWrap">
-                        	<img src="assets/img/55.png" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap dark">
-                            <div class="cbp-l-caption-alignCenter">
-                                <div class="cbp-l-caption-body">
-                                    <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow"><i class="icofont icofont-link"></i></a>
-                            		<a href="assets/img/55.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Good Things<br>by Designs Ninja"><i class="icofont icofont-search"></i></a>
-                                </div>
-                            </div>
-                       	 </div>
-                    </div>
-                    <div class="cbp-l-grid-projects-title dark-color font-700">Good Things</div>
-           			<div class="cbp-l-grid-projects-desc default-color font-14px">Web Design / Photography</div>
-                </div>
+<!---------4---------------------->
+         <div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+          <div class="cbp-caption">
+             <div class="cbp-caption-defaultWrap">
+               <img src="assets/img/products/3.png" alt="">
+             </div>
+             <div class="cbp-caption-activeWrap dark">
+                 <div class="cbp-l-caption-alignCenter">
+                     <div class="cbp-l-caption-body">
+                     <a href="assets/img/products/3.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Chicken Fry Paste"><i class="icofont icofont-search"></i></a>
+                     </div>
+                 </div>
+               </div>
+         </div>
+         <div class="cbp-l-grid-projects-title dark-color font-700">Areen Chicken<br>Fry Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
 
-                <div class="cbp-item print web-design col-md-4 col-sm-6 with-spacing text-center">
-                   	<div class="cbp-caption">
-                        <div class="cbp-caption-defaultWrap">
-                        	<img src="assets/img/66.png" alt="">
-                        </div>
-                        <div class="cbp-caption-activeWrap dark">
-                            <div class="cbp-l-caption-alignCenter">
-                                <div class="cbp-l-caption-body">
-                                    <a href="ajax-juicy-projects/project1.html" class="cbp-singlePage cbp-l-caption-buttonLeft" rel="nofollow"><i class="icofont icofont-link"></i></a>
-                            		<a href="assets/img/66.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Match Point<br>by Designs Ninja"><i class="icofont icofont-search"></i></a>
-                                </div>
+ <!---------5---------------------->
+     <div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+      <div class="cbp-caption">
+         <div class="cbp-caption-defaultWrap">
+           <img src="assets/img/products/9.png" alt="">
+         </div>
+         <div class="cbp-caption-activeWrap dark">
+             <div class="cbp-l-caption-alignCenter">
+                 <div class="cbp-l-caption-body">
+                 <a href="assets/img/products/9.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Meat Curry Paste"><i class="icofont icofont-search"></i></a>
+                 </div>
+             </div>
+           </div>
+     </div>
+     <div class="cbp-l-grid-projects-title dark-color font-700">Areen Meat Curry<br>Paste</div>
+ <br>
+    <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+ </div>
+
+ <!---------6---------------------->
+ <div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/7.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/7.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Nadan Fish Curry Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Nadan Fish<br>Curry Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------7---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/6.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/6.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Coconut Fish Curry Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Coconut Fish<br>Curry Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------8---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/8.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/8.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Fish Fry Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Fish Fry<br>Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------9---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/14.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/14.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Veg Korma Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Veg Korma<br>Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------10---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/17.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/17.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Charcoal Pepper Masala Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Charcoal Pepper<br>Masala Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------11---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/11.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/11.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Charcoal Red Masala Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Charcoal Red<br>Masala Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------12---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/10.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/10.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Charcoal Green Masala Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Charcoal Green<br>Masala Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------13---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/2.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/2.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Dynamite Sauce"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Dynamite Sauce</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>19.55/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+ <!---------14---------------------->
+<div class="cbp-item spice web-design col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+     <div class="cbp-caption-defaultWrap">
+       <img src="assets/img/products/4.png" alt="">
+     </div>
+     <div class="cbp-caption-activeWrap dark">
+         <div class="cbp-l-caption-alignCenter">
+             <div class="cbp-l-caption-body">
+             <a href="assets/img/products/4.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Chicken Grill Paste"><i class="icofont icofont-search"></i></a>
+             </div>
+         </div>
+       </div>
+ </div>
+ <div class="cbp-l-grid-projects-title dark-color font-700">Areen Chicken Grill Paste</div>
+<br>
+   <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>1KG</b></a>
+                <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹19.55/-</b></a>
+                <br><br>
+                
+       
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+
+
+<!----------------RETAIL--------------------------->
+
+                        <!---------1---------------------->
+                        <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+                          <div class="cbp-caption">
+                             <div class="cbp-caption-defaultWrap">
+                               <img src="assets/img/products/2.png" alt="">
+                             </div>
+                             <div class="cbp-caption-activeWrap dark">
+                                 <div class="cbp-l-caption-alignCenter">
+                                     <div class="cbp-l-caption-body">
+       
+                                     <a href="assets/img/products/2.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Butter Chicken Curry Paste"><i class="icofont icofont-search"></i></a>
+                                     </div>
+                                 </div>
+                               </div>
+                         </div>
+                         <div class="cbp-l-grid-projects-title dark-color font-700">Areen Butter Chicken<br>Curry Paste</div>
+                     <br>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+                     </div>
+     
+                   <!---------2---------------------->
+                     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+                       <div class="cbp-caption">
+                          <div class="cbp-caption-defaultWrap">
+                            <img src="assets/img/products/1.png" alt="">
+                          </div>
+                          <div class="cbp-caption-activeWrap dark">
+                              <div class="cbp-l-caption-alignCenter">
+                                  <div class="cbp-l-caption-body">
+                                  <a href="assets/img/products/1.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Kadai Chicken Curry Paste"><i class="icofont icofont-search"></i></a>
+                                  </div>
+                              </div>
                             </div>
-                       	 </div>
+                      </div>
+                      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Kadai Chicken<br>Curry Paste</div>
+                  <br>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+                  </div>
+     
+                   <!---------3---------------------->
+                  <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+                   <div class="cbp-caption">
+                      <div class="cbp-caption-defaultWrap">
+                        <img src="assets/img/products/5.png" alt="">
+                      </div>
+                      <div class="cbp-caption-activeWrap dark">
+                          <div class="cbp-l-caption-alignCenter">
+                              <div class="cbp-l-caption-body">
+                              <a href="assets/img/products/5.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Afghani Chicken Curry Paste"><i class="icofont icofont-search"></i></a>
+                              </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="cbp-l-grid-projects-title dark-color font-700">Areen Afghani<br>Chicken Curry Paste</div>
+              <br>
+                 <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+              </div>
+     
+     <!---------4---------------------->
+              <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+               <div class="cbp-caption">
+                  <div class="cbp-caption-defaultWrap">
+                    <img src="assets/img/products/3.png" alt="">
+                  </div>
+                  <div class="cbp-caption-activeWrap dark">
+                      <div class="cbp-l-caption-alignCenter">
+                          <div class="cbp-l-caption-body">
+                          <a href="assets/img/products/3.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Chicken Fry Paste"><i class="icofont icofont-search"></i></a>
+                          </div>
+                      </div>
                     </div>
-                    <div class="cbp-l-grid-projects-title dark-color font-700">Match Point</div>
-           			<div class="cbp-l-grid-projects-desc default-color font-14px">Branding / Print</div>
+              </div>
+              <div class="cbp-l-grid-projects-title dark-color font-700">Areen Chicken<br>Fry Paste</div>
+          <br>
+             <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+          </div>
+     
+      <!---------5---------------------->
+          <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+           <div class="cbp-caption">
+              <div class="cbp-caption-defaultWrap">
+                <img src="assets/img/products/9.png" alt="">
+              </div>
+              <div class="cbp-caption-activeWrap dark">
+                  <div class="cbp-l-caption-alignCenter">
+                      <div class="cbp-l-caption-body">
+                      <a href="assets/img/products/9.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Meat Curry Paste"><i class="icofont icofont-search"></i></a>
+                      </div>
+                  </div>
                 </div>
+          </div>
+          <div class="cbp-l-grid-projects-title dark-color font-700">Areen Meat Curry<br>Paste</div>
+      <br>
+         <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+      </div>
+     
+      <!---------6---------------------->
+      <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/7.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/7.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Nadan Fish Curry Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Nadan Fish<br>Curry Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------7---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/6.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/6.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Coconut Fish Curry Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Coconut Fish<br>Curry Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------8---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/8.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/8.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Fish Fry Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Fish Fry<br>Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------9---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/14.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/14.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Veg Korma Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Veg Korma<br>Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹34.5/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------10---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/17.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/17.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Charcoal Pepper Masala Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Charcoal Pepper<br>Masala Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------11---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/11.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/11.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Charcoal Red Masala Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Charcoal Red<br>Masala Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------12---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/10.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/10.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Charcoal Green Masala Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Charcoal Green<br>Masala Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹23.00/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------13---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/2.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/2.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Dynamite Sauce"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Dynamite Sauce</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>19.55/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+     
+      <!---------14---------------------->
+     <div class="cbp-item retail web-design col-md-4 col-sm-6 with-spacing text-center">
+       <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/4.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+                  <a href="assets/img/products/4.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Chicken Grill Paste"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Chicken Grill Paste</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>200GM</b></a>
+                     <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>₹19.55/-</b></a>
+                     <br><br>
+                     
+            
+                      <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+     </div>
+
+
+       <!---------Bakes---------------------->
+       <div class="cbp-item bakes col-md-4 col-sm-6 with-spacing text-center">
+        <div class="cbp-caption">
+            <div class="cbp-caption-defaultWrap">
+              <img src="assets/img/products/14.png" alt="">
+            </div>
+            <div class="cbp-caption-activeWrap dark">
+                <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+
+                    <a href="assets/img/products/14.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Special Cream Buns"><i class="icofont icofont-search"></i></a>
+                    </div>
+                </div>
+              </div>
+        </div>
+        <div class="cbp-l-grid-projects-title dark-color font-700">Areen Special Cream Buns</div>
+         <br>
+           <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+    <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+    <br><br>
+    
+
+     <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+
+    <div class="cbp-item bakes col-md-4 col-sm-6 with-spacing text-center">
+      <div class="cbp-caption">
+          <div class="cbp-caption-defaultWrap">
+            <img src="assets/img/products/14.png" alt="">
+          </div>
+          <div class="cbp-caption-activeWrap dark">
+              <div class="cbp-l-caption-alignCenter">
+                  <div class="cbp-l-caption-body">
+
+                  <a href="assets/img/products/14.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Liquid Creamer Cardamom"><i class="icofont icofont-search"></i></a>
+                  </div>
+              </div>
+            </div>
+      </div>
+      <div class="cbp-l-grid-projects-title dark-color font-700">Areen Liquid<br>Creamer Cardamom</div>
+       <br>
+          <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+    <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+    <br><br>
+    
+
+     <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+  </div>
+
+
+  <div class="cbp-item bakes col-md-4 col-sm-6 with-spacing text-center">
+    <div class="cbp-caption">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/products/14.png" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap dark">
+            <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                <a href="assets/img/products/14.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Areen Milk Powder"><i class="icofont icofont-search"></i></a>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div class="cbp-l-grid-projects-title dark-color font-700">Areen Milk Powder</div>
+     <br>
+        <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+    <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+    <br><br>
+    
+
+     <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+<div class="cbp-item bakes col-md-4 col-sm-6 with-spacing text-center">
+  <div class="cbp-caption">
+      <div class="cbp-caption-defaultWrap">
+        <img src="assets/img/products/14.png" alt="">
+      </div>
+      <div class="cbp-caption-activeWrap dark">
+          <div class="cbp-l-caption-alignCenter">
+              <div class="cbp-l-caption-body">
+              <a href="assets/img/products/14.png" class="cbp-lightbox cbp-l-caption-buttonRight" data-title="Tea Powder"><i class="icofont icofont-search"></i></a>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="cbp-l-grid-projects-title dark-color font-700">Tea Powder</div>
+   <br>
+      <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+  <a href="#!" class="btn btn-gradient btn-lg btn-square" style="border-width: 2px; border-color: black; color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); border-radius: 8px;"><b>-</b></a>
+  <br><br>
+  
+
+   <a href="#!" class="btn btn-gradient btn-lg btn-square w-100" style="background-color: black; border-radius: 8px; width: 260px;">Buy Now</a>
+</div>
+
+
+
+
+
 
     		        </div>
 
@@ -451,18 +1244,16 @@
  <footer class="footer" id="footer-fixed">
   <div class="footer-main">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
-          <div class="widget widget-text">
-      <img src="/assets//img/logow.png"><br><br>
-            <p>
+   
+          <div class="widget ">
+      <center><img src="/assets//img/logow.png"><br><br>
+            <p style="color: white;">
               Leading Distributions of Creamers, Tea Products, Concentrates, Marinades and More.
-            </p><br>
+            </p></center><br>
            
-          </div>
-        </div>
+       
       
-        <div class="col-sm-6 col-md-3">
+        <!-- <div class="col-sm-6 col-md-3">
           <div class="widget widget-links">
             <h5 class="widget-title">Menu</h5>
             <ul>
@@ -474,8 +1265,8 @@
       <li><a class="page-scroll" href="#contact">Contacts</a></li>
             </ul>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
+        </div> -->
+        <!-- <div class="col-sm-6 col-md-3">
           <div class="widget widget-text">
             <h5 class="widget-title">Social Media</h5>
       <br>
@@ -483,32 +1274,35 @@
       <div class="row">
       <div class="col-md-12 col-xs-12">
       <ul class="social-media">
-        <li><a href="#" class="icofont icofont-social-facebook"></a></li>
-          <li><a href="#" class="icofont icofont-social-twitter"></a></li>
-          <li><a href="#" class="icofont icofont-social-behance"></a></li>
-          <li><a href="#" class="icofont icofont-social-dribble"></a></li>
-         <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100087924283646&mibextid=ZbWKwL" class="icofont icofont-social-facebook"></a></li>
+          <li><a href="https://twitter.com/areenproduct" class="icofont icofont-social-twitter"></a></li>
+          <li><a href="https://instagram.com/areen.product?igshid=N2ZiY2E3YmU=" class="icofont icofont-social-instagram"></a></li>
+         <li><a href="https://www.linkedin.com/in/areen-product-58139b258/" class="icofont icofont-social-linkedin"></a></li>
       </ul>
       </div>
       </div>
-      </div>
-            
-            
-      
+      </div>                   
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
-  <div class="footer-copyright">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
-          <div class="copy-right text-left">© 2022 <span class="gradient-color"></span> All rights reserved | Created by me.</div>
-        </div>
-      
-      </div>
+<div class="footer-copyright">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6 col-xs-12">
+      <div class="copy-right text-left">© 2022 <span class="gradient-color"> All rights reserved</span> By Me.</div>
     </div>
+    <div class="col-md-6 col-xs-12">
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com/profile.php?id=100087924283646&mibextid=ZbWKwL" class="icofont icofont-social-facebook"></a></li>
+            <li><a href="https://twitter.com/areenproduct" class="icofont icofont-social-twitter"></a></li>
+            <li><a href="https://instagram.com/areen.product?igshid=N2ZiY2E3YmU=" class="icofont icofont-social-instagram"></a></li>
+           <li><a href="https://www.linkedin.com/in/areen-product-58139b258/" class="icofont icofont-social-linkedin"></a></li>
+        </ul>
+    </div>
+    </div>
+  </div>
   </div>
 </footer>
 <!--== Footer End ==-->
